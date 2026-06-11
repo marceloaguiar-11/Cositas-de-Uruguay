@@ -1,3 +1,50 @@
+body{}
+.titulo-posts {
+font-weight: bold;
+margin-bottom: 15px;
+}
+.subtitulo-posts{
+    color: white;
+    margin-bottom: 15px;
+}
+.blog{
+    color: white;
+    background-color: rgb(3, 9, 72);
+    border-radius: 20px;
+    transition: 0.5s;
+    overflow: hidden;
+    cursor: pointer;
+    height: 100%;
+}
+.blog:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 25px rgba(32, 34, 35, 0.5);
+}
+.img-post{
+    width: 100%;
+    object-fit: cover;
+}
+.contenido-blog{
+padding: 25px;
+}
+.contenido-blog h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.contenido-blog a{
+color: rgb(193, 193, 196);
+text-decoration: none;
+font-weight: bold;
+font-size: 21px;
+}
+.autor{
+    color: rgb(193, 193, 196);
+    margin-bottom: 15px;
+}
+.contenido-blog a:hover{
+    color: white;
+}
 .imagen-fondo {
   height: 100vh;
   background: url('/Imagenes/88.jpg') center/cover no-repeat;

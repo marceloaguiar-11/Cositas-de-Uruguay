@@ -1,6 +1,6 @@
 .imagen-fondo {
   height: 100vh;
-  background: url('/Imagenes/88.jpg') center/cover no-repeat;
+  background: url('/Imagenes/88.jpg') center/cover no-repeat;   
   filter: blur(8px);
   position: fixed;
   width: 100%;

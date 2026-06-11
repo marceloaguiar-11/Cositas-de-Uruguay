@@ -1,0 +1,40 @@
+img.imagen-personalizada{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin: 15px;
+    border: 2px solid yellow;
+}
+
+img.mi-imagen{
+     width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin: 15px;
+    border: 2px solid grey;
+}
+
+img.personalizada{
+ width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin: 15px;
+    border: 2px solid blue;
+}
+
+body{
+    background-image: url('https://media.gettyimages.com/id/1021390418/es/foto/view-of-buceo-beach-in-summer-montevideo-city-uruguay.jpg?s=612x612&w=0&k=20&c=3iXkPn_Y30C-4KWGC-ORwaW8VEJMA05iE11avf1orSs=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.bg-warning:hover .bg-light:hover .bg-info-subtle:hover{
+transform: translate(-5px);
+box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+}
+

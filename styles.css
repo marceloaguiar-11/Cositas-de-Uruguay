@@ -1,0 +1,43 @@
+.imagen-fondo {
+  height: 100vh;
+  background: url('/Imagenes/88.jpg') center/cover no-repeat;   
+  filter: blur(8px);
+  position: fixed;
+  width: 100%;
+  z-index: -1;
+}
+
+.titulo-centro {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.custom-navbar {
+  backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  margin: 10px;
+}
+
+
+.nav-link.btn {
+  border-radius: 20px;
+  padding: 5px 15px;
+  transition: 0.3s;
+}
+
+.nav-link.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+
+.btn {
+  border-radius: 20px;
+  padding: 5px 15px;
+}

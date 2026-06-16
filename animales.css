@@ -1,4 +1,36 @@
+.titulo-centro {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  color: rgb(255, 255, 255);
+}
+.custom-navbar {
+  backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.nav-link.btn {
+  border-radius: 20px;
+  padding: 5px 15px;
+  transition: 0.3s;
+}
+.nav-link.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.btn {
+  border-radius: 20px;
+  padding: 5px 15px;
+}
+
 img.imagen-personalizada{
+   
     width: 150px;
     height: 150px;
     object-fit: cover;
@@ -26,7 +58,8 @@ img.personalizada{
 }
 
 body{
-    background-image: url('https://media.gettyimages.com/id/1021390418/es/foto/view-of-buceo-beach-in-summer-montevideo-city-uruguay.jpg?s=612x612&w=0&k=20&c=3iXkPn_Y30C-4KWGC-ORwaW8VEJMA05iE11avf1orSs=');
+    margin-top: 80px;
+    background-image: url(https://media.gettyimages.com/id/555954477/es/foto/view-of-the-uruguayan-countryside-in-minas.jpg?s=612x612&w=0&k=20&c=5ilnqhNmuSIyjvnYnauv7dLeK0f3CJTdCUbLLGE5HlI=);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -38,3 +71,9 @@ transform: translate(-5px);
 box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
 }
 
+ #footer {
+      text-align: center;
+      padding: 20px;
+      color: #fdfbfb;
+      margin: 10px;
+    }

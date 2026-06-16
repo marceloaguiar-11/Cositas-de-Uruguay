@@ -1,0 +1,147 @@
+.titulo-posts {
+font-weight: bold;
+margin-bottom: 15px;
+}
+.subtitulo-posts{
+    color: white;
+    margin-bottom: 15px;
+}
+.blog{
+    color: white;
+    background-color: rgb(3, 9, 72);
+    border-radius: 20px;
+    transition: 0.5s;
+    overflow: hidden;
+    cursor: pointer;
+    height: 100%;
+}
+.blog:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 25px rgba(32, 34, 35, 0.5);
+}
+.img-post{
+    width: 100%;
+    object-fit: cover;
+}
+.contenido-blog{
+padding: 25px;
+}
+.contenido-blog h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.contenido-blog a{
+color: rgb(193, 193, 196);
+text-decoration: none;
+font-weight: bold;
+font-size: 21px;
+}
+.autor{
+    color: rgb(193, 193, 196);
+    margin-bottom: 15px;
+}
+.contenido-blog a:hover{
+    color: white;
+}
+.imagen-fondo {
+  height: 100vh;
+  background: url('/Imagenes/88.jpg') center/cover no-repeat;
+  filter: blur(8px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.titulo-centro {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.custom-navbar {
+  backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  margin: 10px;
+}
+
+
+.nav-link.btn {
+  border-radius: 20px;
+  padding: 5px 15px;
+  transition: 0.3s;
+}
+
+.nav-link.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+
+.btn {
+  border-radius: 20px;
+  padding: 5px 15px;
+}
+.titulo-posts {
+  margin-top: 60px;
+font-weight: bold;
+margin-bottom: 15px;
+}
+.subtitulo-posts{
+  margin-top: 20px;
+    color: white;
+    margin-bottom: 15px;
+}
+.blog{
+    color: white;
+    background-color: rgb(3, 9, 72);
+    border-radius: 20px;
+    transition: 0.5s;
+    overflow: hidden;
+    cursor: pointer;
+    height: 100%;
+}
+.blog:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 25px rgba(32, 34, 35, 0.5);
+}
+.img-post{
+    width: 100%;
+    object-fit: cover;
+}
+.contenido-blog{
+padding: 25px;
+}
+.contenido-blog h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.contenido-blog a{
+color: rgb(193, 193, 196);
+text-decoration: none;
+font-weight: bold;
+font-size: 21px;
+}
+.autor{
+    color: rgb(193, 193, 196);
+    margin-bottom: 15px;
+}
+.contenido-blog a:hover{
+    color: white;
+}
+.fondo-gastronomia{
+background-image: url("/imagenes/gastronomia-blog-fondo.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+min-height: 100vh;
+}

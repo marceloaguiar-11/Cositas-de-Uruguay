@@ -165,16 +165,6 @@ font-size: 21px;
 }
 .contenido-blog a:hover{
     color: white;
-}
-.fondo-gastronomia{
-background-image: url("/imagenes/gastronomia-blog-fondo.png");
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-background-attachment: fixed;
-min-height: 100vh;
-}
-
 #footer {
       margin-top: 300px;
       text-align: center;

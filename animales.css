@@ -58,22 +58,23 @@ img.personalizada{
 }
 
 body{
+
     margin-top: 80px;
     background-image: url(https://media.gettyimages.com/id/555954477/es/foto/view-of-the-uruguayan-countryside-in-minas.jpg?s=612x612&w=0&k=20&c=5ilnqhNmuSIyjvnYnauv7dLeK0f3CJTdCUbLLGE5HlI=);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-}
+    
+  }
 
-.bg-warning:hover .bg-light:hover .bg-info-subtle:hover{
-transform: translate(-5px);
-box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
-}
-
- #footer {
+#footer {
       text-align: center;
       padding: 20px;
       color: #fdfbfb;
       margin: 10px;
     }
+    p{
+      color: rgb(255, 255, 255);
+    }
+

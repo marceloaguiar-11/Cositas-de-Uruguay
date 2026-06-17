@@ -54,7 +54,7 @@ img.personalizada{
     object-fit: cover;
     border-radius: 12px;
     margin: 15px;
-    border: 2px solid blue;
+    border: 2px solid rgb(0, 0, 255);
 }
 
 body{

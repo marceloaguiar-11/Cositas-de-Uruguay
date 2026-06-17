@@ -31,7 +31,7 @@ min-height: 100vh;
 }
 .blog-card{
      color: white;
-    background-color: rgb(3, 9, 72);
+    background-color: rgb(0, 20, 137);
     border: 1px solid rgb(139, 141, 156);
     border-radius: 20px;
     overflow: hidden;
@@ -51,8 +51,8 @@ min-height: 100vh;
     text-align: justify;
 }
  #footer {
-      text-align: center;
-      padding: 20px;
-      font-size: 14px;
-      color: #000000;
-    }
+text-align: center;
+padding: 20px;
+font-size: 14px;
+color: #000000;
+}

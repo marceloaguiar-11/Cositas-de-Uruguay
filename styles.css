@@ -1,3 +1,32 @@
+body {
+    background-color: rgb(255, 255, 255);
+      color: #000000;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .team-section {
+      text-align: center;
+      padding: 50px 0;
+    }
+    .card {
+      background-color: rgb(0, 20, 137);
+      border: none;
+      border-radius: 10px;
+      color: #fff;
+      transition: transform 0.3s;
+    }
+
+    .card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin: 20px auto 10px;
+    }
+    #footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #000000;
+    }
 .titulo-posts {
 font-weight: bold;
 margin-bottom: 15px;
@@ -136,4 +165,10 @@ font-size: 21px;
 }
 .contenido-blog a:hover{
     color: white;
-}
+#footer {
+      margin-top: 300px;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #000000;
+    }

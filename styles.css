@@ -174,3 +174,11 @@ background-repeat: no-repeat;
 background-attachment: fixed;
 min-height: 100vh;
 }
+
+#footer {
+      margin-top: 300px;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #000000;
+    }

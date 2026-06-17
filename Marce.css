@@ -1,4 +1,37 @@
+.titulo-centro {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  color: white;
+}
 
+.custom-navbar {
+  backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  margin: 10px;
+}
+
+
+.nav-link.btn {
+  border-radius: 20px;
+  padding: 5px 15px;
+  transition: 0.3s;
+}
+
+.nav-link.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+
+.btn {
+  border-radius: 20px;
+  padding: 5px 15px;
+}
 body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -156,3 +189,12 @@ body {
   border-radius: 5px;
   margin-bottom: 10px;
 }
+
+
+#footer {
+  margin-top: 100px;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #000000;
+    }

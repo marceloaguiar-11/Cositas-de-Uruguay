@@ -1,3 +1,29 @@
+.custom-navbar {
+  backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  margin: 10px;
+}
+.nav-link.btn {
+  border-radius: 20px;
+  padding: 5px 15px;
+  transition: 0.3s;
+}
+.nav-link.btn:hover {
+  background-color: white;
+  color: black;
+}
+.fondo-gastronomia{
+background-image: url("/imagenes/gastronomia-blog-fondo.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+min-height: 100vh;
+}
+.blog-card{
+    margin-top: 70px;
+}
 .blog-card img{
     height: 350px;
     object-fit: cover;
@@ -14,6 +40,7 @@
 .autor-blog{
     color: rgb(226, 221, 254);
     font-size: 15px;
+    margin-top: 15px;
 }
 .titulo-blog{
     font-size: 30px;
@@ -23,3 +50,9 @@
 .info-blog{
     text-align: justify;
 }
+ #footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #000000;
+    }

@@ -56,7 +56,8 @@ min-height: 100vh;
 .info-blog{
     text-align: justify;
 }
- #footer {
+#footer {
+margin-top: 50px;
 text-align: center;
 padding: 20px;
 font-size: 14px;

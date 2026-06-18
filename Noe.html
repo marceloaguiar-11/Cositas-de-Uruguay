@@ -63,10 +63,36 @@
                     </div>
                 </div>
             </div>'
-            <div class="col-8">            
-                <p>ESPACIO DE PREGUNTA</p>
-            </div>
             <div class="col-8">
+            <div class="blog-card encuesta">
+                <h3>¿Qué fue lo que más te gustó del blog?</h3>
+                <p>Selecciona la opción que creas más acorde.</p>
+                <div>
+                    <input type="radio" name="opinion" id="escritura" value="escritura">
+                    <label for="escritura">El tema del blog</label>
+                </div>
+                <div>
+                    <input type="radio" name="opinion" id="tema" value="tema">
+                    <label for="tema">Aprender sobre los platos típicos</label>
+                </div>
+                <div>
+                    <input type="radio" name="opinion" id="interes" value="interes">
+                    <label for="interes">Es un tema de interés personal</label>
+                </div>
+                <div>
+                    <input type="radio" name="opinion" id="tradiciones" value="tradiciones">
+                    <label for="tradiciones">Conocer las tradiciones del Uruguay</label>
+                </div>
+                <div>
+                    <input type="radio" name="opinion" id="platos" value="platos">
+                    <label for="platos">Cómo se redactó</label>
+                </div>
+                <button id="btnEnviar" class="btn btn-primary mt-3">
+                    Enviar
+                </button>
+                <p id="resultado" class="mt-3 fw-bold"></p>
+            </div>
+            <div class="col">
                 <div class="blog-card">
                     <h4 class="comentarios">Comentarios</h4>
                     <p class="cantidad-comentarios">2 comentarios</p>
@@ -92,14 +118,46 @@
                     </div>
                 </div>
             </div>
-        </div>'
-    </div>
-
+            </div>
+        </div>
+     </div>
+    <script>
+            let boton = document.getElementById("btnEnviar");
+            boton.addEventListener("click", mostrarOpinion);
+            function mostrarOpinion() {
+            let opciones = document.getElementsByName("opinion");
+            let seleccion = "";
+            for(let i = 0; i < opciones.length; i++){
+                if(opciones[i].checked){
+                    seleccion = opciones[i].value;
+                }
+            }
+            if(seleccion == "escritura"){
+                document.getElementById("resultado").innerHTML =
+                "Gracias por tu respuesta! Nos alegra que te haya interesado el tema del blog.";
+            }else if(seleccion == "tema"){
+                document.getElementById("resultado").innerHTML =
+                "Excelente! Los platos típicos son una parte fundamental de la cultura uruguaya.";
+            }else if(seleccion == "interes"){
+                document.getElementById("resultado").innerHTML =
+                "Qué bueno! Nos alegra que la gastronomía uruguaya sea un tema de tu interés.";
+            }else if(seleccion == "tradiciones"){
+                document.getElementById("resultado").innerHTML =
+                "Gracias! Las tradiciones gastronómicas ayudan a mantener viva nuestra identidad cultural.";
+            }else if(seleccion == "platos"){
+                document.getElementById("resultado").innerHTML =
+                "Muchas gracias! Nos alegra que te haya gustado la forma en que fue redactado el artículo.";
+            }else{
+                document.getElementById("resultado").innerHTML =
+                "Por favor, selecciona una opción.";
+            } 
+        }
+    </script>
     <div id="footer">
     <p>Anima Finest Blog</p>
     <p>HTML · CSS · Bootstrap · JavaScript · Trello · Git</p>
-  </div>
-
+    </div>
 </div>
+</script>
 </body>
 </html>

@@ -36,7 +36,7 @@ img.imagen-personalizada{
     object-fit: cover;
     border-radius: 12px;
     margin: 15px;
-    border: 2px solid yellow;
+    border: 2px solid grey;
 }
 
 img.mi-imagen{
@@ -54,18 +54,19 @@ img.personalizada{
     object-fit: cover;
     border-radius: 12px;
     margin: 15px;
-    border: 2px solid rgb(0, 0, 255);
+    border: 2px solid grey;
 }
 
-body{
-    margin-top: 80px;
-    background-image: url(https://media.gettyimages.com/id/555954477/es/foto/view-of-the-uruguayan-countryside-in-minas.jpg?s=612x612&w=0&k=20&c=5ilnqhNmuSIyjvnYnauv7dLeK0f3CJTdCUbLLGE5HlI=);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    
-  }
+.imagen-fondo {
+  height: 100vh;
+  background: url(imagenes/roca1.jpg) center/cover no-repeat;
+  filter: blur(10px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
 
 #footer {
       text-align: center;
@@ -75,5 +76,29 @@ body{
     }
  p {
       color: rgb(255, 255, 255);
-    }
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: large;
+     line-height: 1.6;
+ }
+ 
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+ font-weight: bold;
+  color: antiquewhite;
+}
+h3{
+  font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+  color: antiquewhite;
+}
+h4{
+ font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: antiquewhite;
+  
+}
+
+#contenedor{
+   margin-top: 80px;
+}
 

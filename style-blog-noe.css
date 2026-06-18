@@ -13,6 +13,12 @@
   background-color: white;
   color: black;
 }
+
+.btn {
+  border-radius: 20px !important;
+  padding: 5px 15px;
+}
+
 .fondo-gastronomia{
 background-image: url("/imagenes/gastronomia-blog-fondo.png");
 background-size: cover;

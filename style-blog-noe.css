@@ -13,12 +13,10 @@
   background-color: white;
   color: black;
 }
-
 .btn {
   border-radius: 20px !important;
   padding: 5px 15px;
 }
-
 .fondo-gastronomia{
 background-image: url("/imagenes/gastronomia-blog-fondo.png");
 background-size: cover;
@@ -28,33 +26,62 @@ background-attachment: fixed;
 min-height: 100vh;
 }
 .blog-card{
-    margin-top: 70px;
+margin-top: 20px;
 }
 .blog-card img{
-    height: 350px;
-    object-fit: cover;
-    padding: 0px;
+height: 350px;
+object-fit: cover;
+padding: 0px;
 }
 .blog-card{
-     color: white;
-    background-color: rgb(0, 20, 137);
-    border: 1px solid rgb(139, 141, 156);
-    border-radius: 20px;
-    overflow: hidden;
-    padding: 30px;
+color: white;
+background-color: rgb(0, 20, 137);
+border: 1px solid rgb(139, 141, 156);
+border-radius: 20px;
+overflow: hidden;
+padding: 30px;
 }
 .autor-blog{
-    color: rgb(226, 221, 254);
-    font-size: 15px;
-    margin-top: 15px;
+color: rgb(226, 221, 254);
+font-size: 15px;
+margin-top: 15px;
 }
 .titulo-blog{
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 15px;
+font-size: 30px;
+font-weight: bold;
+margin-bottom: 15px;
 }
 .info-blog{
-    text-align: justify;
+text-align: justify;
+}
+.encuesta{
+margin-top: 20px;
+}
+.encuesta h3{
+font-size: 25px;
+font-weight: bold;
+margin-bottom: 10px;
+}
+.encuesta p{
+color: rgb(226, 221, 254);
+}
+.encuesta div{
+margin-bottom: 10px;
+}
+.encuesta label{
+margin-left: 8px;
+cursor: pointer;
+}
+.encuesta input[type="radio"]{
+cursor: pointer;
+}
+#resultado{
+margin-top: 20px;
+padding-top: 15px;
+border-top: 1px solid rgb(139, 141, 156);
+color: white;
+font-weight: bold;
+font-size: 18px;
 }
 #footer {
 margin-top: 50px;
